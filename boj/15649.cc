@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 void pick(int n, vector<int> &picked, int toPick) {
     if (toPick == 0) {
         for (const auto &ele : picked) {
