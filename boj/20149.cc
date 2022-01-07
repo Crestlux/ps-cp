@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 typedef long double ld;
-
 int CCW(const pair<ld, ld>& x, const pair<ld, ld>& y, const pair<ld, ld>& z) {
 	ld ret = x.first * y.second + y.first * z.second + z.first * x.second;
 	ret -= (x.second * y.first + y.second * z.first + z.second * x.first);
