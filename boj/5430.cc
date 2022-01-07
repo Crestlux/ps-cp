@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+	ios_base::sync_with_stdio(false); cin.tie(NULL);
 	string p, temparr, tempnum; int T, n, templen;
 	deque<int> arr;
 	cin >> T;
