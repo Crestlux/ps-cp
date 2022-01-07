@@ -3,7 +3,7 @@ using namespace std;
 typedef long long ll;
 ll graph[501][501];
 int main() {
-	ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+	ios_base::sync_with_stdio(false); cin.tie(NULL);
 	ll N, M, B, time = 0, maxheight = -1, blockneed = 0;
 	vector<pair<ll,ll>> timearr;
 	cin >> N >> M >> B;
