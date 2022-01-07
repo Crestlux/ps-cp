@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() {
     ios::sync_with_stdio(false), cin.tie(NULL), cout.tie(NULL);
     int T, r1, r2; pair<int, int> A, B; double dst, rsum, rsub;
