@@ -43,7 +43,7 @@ void paper(vector<vector<int>> &graph, int x, int y, int size) {
 }
 
 int main() {
-    ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+    ios::sync_with_stdio(false); cin.tie(NULL);
     int N;
     cin >> N;
     vector<vector<int>> graph(N, vector<int>(N, 0));
