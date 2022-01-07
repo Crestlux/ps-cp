@@ -1,5 +1,4 @@
 #include <stdio.h>
- 
 int main() { 
 	int A, B, C, num, len = 0;
 	int arr[10];
