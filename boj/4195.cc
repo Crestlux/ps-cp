@@ -28,7 +28,7 @@ void Union(int x, int y) {
 }
 
 int main() {
-	ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+	ios_base::sync_with_stdio(false); cin.tie(NULL);
 	int T, F; string s1, s2; map<string, int> m;
 	cin >> T;
 	for (int i = 0; i < T; i++) {
