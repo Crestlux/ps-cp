@@ -12,7 +12,9 @@
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
                 "-Davik_local",
-                "-fext-numeric-literals"
+                "-fext-numeric-literals",
+                "-Wall",
+                "-Wextra"
             ],
             "options": {
                 "cwd": "${fileDirname}"
