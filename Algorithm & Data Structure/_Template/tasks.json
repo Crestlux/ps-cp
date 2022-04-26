@@ -11,7 +11,6 @@
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
-                "-I ~/etc/vcpkg/packages/*",
                 "-Davik_local",
                 "-fext-numeric-literals"
             ],
