@@ -14,7 +14,8 @@
                 "-Davik_local",
                 "-fext-numeric-literals",
                 "-Wall",
-                "-Wextra"
+                "-Wextra",
+                "-fsanitize=undefined"
             ],
             "options": {
                 "cwd": "${fileDirname}"
