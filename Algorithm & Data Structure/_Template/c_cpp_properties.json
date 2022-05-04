@@ -7,7 +7,7 @@
                 "~/etc/vcpkg/packages/**"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/g++-11",
+            "compilerPath": "/usr/bin/g++-12",
             "intelliSenseMode": "linux-gcc-x64"
         }
     ],
