@@ -1,4 +1,4 @@
-namespace UnionFind {
+namespace union_find {
     using ll = long long;
     vector<ll> parent, height;
     ll sz = 0;
